@@ -1,3 +1,15 @@
 @import"./utils/var";
+@import"./base/common";
+@import "./components/container";
+@import"./components/section";
+@import"./base/reset";
+////
 @import"./layout/header";
 @import"./layout/hero";
+@import"./layout/advantage";
+@import"./layout/our-work";
+@import"./layout/team";
+@import"./layout/portfolio";
+@import"./layout/footer";
+///
+@import"./base/modal";

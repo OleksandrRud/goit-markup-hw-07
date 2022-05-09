@@ -1,0 +1,143 @@
+.logo-footer {
+  color: var(--acccent-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.footer-content {
+  font-style: normal;
+  margin-right: 70px;
+}
+
+.footer {
+  background-color: var(--bkg-hero);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.about-footer {
+  display: flex;
+}
+
+.contact-map {
+  display: inline-block;
+  color: var(--text-white-color);
+  line-height: 1.71;
+  text-decoration: none;
+  margin: 20px 0 0 0;
+}
+
+.contact-footer {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.71;
+  text-decoration: none;
+  margin: 9px 0 0 0;
+}
+
+.invite {
+  margin-top: 12px;
+  margin-bottom: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--text-white-color);
+}
+
+.footer-soc {
+  display: flex;
+}
+
+.footer-nav :hover,
+.footer-nav :focus {
+  color: var(--acccent-text-color);
+}
+
+.social-item {
+  margin-right: 10px;
+}
+
+.social-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.social-link:hover {
+  background-color: var(--acccent-text-color);
+}
+
+.social-link:focus {
+  background-color: var(--acccent-text-color);
+}
+
+.social-element {
+  fill: var(--text-white-color);
+}
+
+.subscribe {
+  margin-left: auto;
+}
+
+.box-subscribe {
+  display: flex;
+}
+
+.input-subscribe {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: var(--bkg-hero);
+  padding-left: 16px;
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.03em;
+}
+
+.input-subscribe::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.btn-subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  width: 200px;
+  padding: 0 29px;
+  color: var(--text-white-color);
+  background-color: var(--acccent-text-color);
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  margin-left: 12px;
+  text-align: center;
+  border: 1px transparent;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.btn-subscribe:hover,
+.btn-subscribe:focus {
+  background-color: var(--bkg-hover-btn-hero);
+}
