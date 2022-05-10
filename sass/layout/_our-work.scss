@@ -20,8 +20,7 @@
 
 .example {
   margin-right: 30px;
-}
-
-.example:nth-child(3n) {
+  &:nth-child(3n) {
   margin-right: 0px;
+}
 }

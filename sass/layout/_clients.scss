@@ -1,0 +1,30 @@
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+
+.clients-item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--logo-of-clients);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &+& {
+      margin-left: 30px;
+    }
+  &:hover,
+  &:focus {
+      border-color: var(--acccent-text-color);
+    }
+}
+
+.clients-link {
+  padding: 15px 32px;
+  fill: var(--logo-of-clients);
+&:hover,
+&:focus {
+  fill: var(--acccent-text-color);
+}
+}
