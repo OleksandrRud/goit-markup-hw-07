@@ -33,10 +33,7 @@
 
 .site-nav__item {
   position: relative;
-  &:hover,
-  & :focus {
-  color: var(--acccent-text-color);
-  }
+  
 .site-nav &+& {
   margin-left: 50px;
 }
@@ -68,6 +65,10 @@
 .site-nav &.current {
   color: var(--acccent-text-color);
 }
+ &:hover,
+ &:focus {
+   color: var(--acccent-text-color);
+ }
 }
 
 .contacts-nav {

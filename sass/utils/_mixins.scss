@@ -1,0 +1,13 @@
+@mixin font($fw,$fz,$lh) {
+  font-weight: $fw;
+  font-size: $fz;
+  line-height: $lh;
+}
+  // text-align: center;
+  // margin-top: 0;
+  // margin-bottom: 50px;
+  // color: var(--primery-text-color);
+
+// font-weight: 700;
+// font-size: 36px;
+// line-height: 1.16;
