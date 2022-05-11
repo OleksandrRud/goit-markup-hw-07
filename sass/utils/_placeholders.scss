@@ -16,3 +16,20 @@
     line-height: 1.2;
     text-decoration: none;
 }
+
+%button{
+  height: 50px;
+    width: 200px;
+    color: var(--text-white-color);
+    background-color: var(--acccent-text-color);
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px transparent;
+    
+    cursor: pointer;
+}

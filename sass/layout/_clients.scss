@@ -6,8 +6,7 @@
   color: var(--primery-text-color);
 }
 .clients__list {
-  display: flex;
-  justify-content: center;
+  @extend %content_center;
 }
 
 .clients__item {

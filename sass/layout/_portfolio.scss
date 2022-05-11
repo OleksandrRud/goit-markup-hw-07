@@ -2,39 +2,23 @@
   background-color: var(--back-ground-color);
 }
 
-.portfolio-btn {
+.portfolio__btn {
   padding-top: 0;
   padding-bottom: 50px;
 }
 
-.portfolio-title {
-  margin: 0 0 4px 0;
-  color: var(--primery-text-color);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+
+
+
+.portfolio__btn.list {
+  @extend %content_center;
 }
 
-.potrfolio-text {
-  margin: 0;
-  color: var(--title-text-color);
-  font-size: 16px;
-  line-height: 1.88;
-}
-
-
-
-.portfolio-btn.list {
-  display: flex;
-  justify-content: center;
-}
-
-.portfolio-btn .item+.item {
+.portfolio__btn .portfolio__item+.portfolio__item {
   margin-left: 8px;
 }
 
-.btn-filter {
+.portfolio__filter {
   display: inline-block;
   color: var(--primery-text-color);
   background-color: var(--button-portfolio);
@@ -58,19 +42,19 @@
 }
 }
 
-.portfolio-foto {
+.portfolio__list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.border-content {
+.portfolio__content {
   padding: 20px 24px;
   border-bottom: 1px solid var(--border-color);
   border-left: 1px solid var(--border-color);
   border-right: 1px solid var(--border-color);
 }
 
-.element {
+.portfolio__inside {
   margin-right: 30px;
   margin-bottom: 30px;
   &:nth-child(3n) {
@@ -81,7 +65,7 @@
   }
 }
 
-.decor {
+.portfolio__link {
   text-decoration: none;
   display: block;
   &:hover,
@@ -92,12 +76,12 @@
   }
 }
 
-.portfolio-box {
+.portfolio__box {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio-inbox {
+.portfolio__text {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -110,8 +94,24 @@
   line-height: 1.55;
   transform: translateY(101%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  .decor:hover &,
-    .decor:focus & {
+  .portfolio__link:hover &,
+  .portfolio__link:focus & {
       transform: translateY(0);
     }
+}
+
+.portfolio__title {
+  margin: 0 0 4px 0;
+  color: var(--primery-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.potrfolio__type {
+  margin: 0;
+  color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.88;
 }

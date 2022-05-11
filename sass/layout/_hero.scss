@@ -27,20 +27,8 @@
 }
 
 .hero__button {
-  height: 50px;
-  width: 200px;
-  color: var(--text-white-color);
-  background-color: var(--acccent-text-color);
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  border-radius: 4px;
-  text-align: center;
-  border: 1px transparent;
-  margin-top: 30px;
-  cursor: pointer;
+@extend %button;
+margin-top: 30px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   &:hover,
   &:focus {
